@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+h1,
+h2,
+h3 {
+  display: inline-block;
+  color: white;
+  font-size: 1000%;
+  margin: 0;
+}
+.align {
+  text-align: center;
+  align-items: center;
+  margin-top: 15% !important;
+}
+.sa1 {
+  width: 900px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+}
+.sa2 {
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: ease 0.5s;
+  background-color: rgb(185, 0, 0);
+}
